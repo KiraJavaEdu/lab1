@@ -1,14 +1,14 @@
 # Lab1-从CPP到Java，重构之旅第一弹
-在开展实验之前，请各位同学仔细阅读[实验前阅读](https://mybaby101.gitbooks.io/bfu-java-lab-instruction/content/)
+在开展实验之前，请各位同学仔细阅读[实验前阅读](https://kirajava.gitbook.io/introduction/)
 
 Lab系列是重构之旅，我们将从一个简单的需求开始，伴随课程的不断深入，对这一程序逐步重构优化。
 Lab1的相关代码已经放在了该git版本库中，需要同学们进一步完善这些程序。
 
 提交要求：
-1. Deadline: 2018.4.4 凌晨12点。
+1. Deadline: 
 2. 提交内容包括：所有要求完成的源程序，实验报告以及要求导出的文档注释目录(java目录下的src和doc目录下内容此处省略)。
 ```
-    2016_lab1
+    kirajava-lab1
     ├── README.md
     ├── .gitignore
     ├── cpp
@@ -20,8 +20,7 @@ Lab1的相关代码已经放在了该git版本库中，需要同学们进一步�
         ├── src
         └── doc
 ```
-3. 直接将该版本库使用`git push`命令推送到`github`即可完成提交。
-4. 要求所有源文件均使用utf-8编码。
+3. 要求所有源文件均使用utf-8编码。
 
 ## 重构之旅，由此展开
 各位都是学生，我们就从学生开始这场重构之旅！为了对比CPP与Java面向对象的差异，首先请各位同学请使用CPP语言编写一个Student类，要求声明和实现分离，具体需求如下：
